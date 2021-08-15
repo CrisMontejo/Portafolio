@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <!-- Custom css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Google fonts Carme -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Carme&display=swap" rel="stylesheet">
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-div">
+            <h1>Cristian G. Montejo</h1>
+            <p>Beginner Developer</p>
+        </div>
+    </header>
+    <section class="seccion1">
+        <nav class="seccion1-nav">
+            <div class="seccion1-img">
+                <img class="nav-img" src="https://zimbacode.com/assets/img/zimba.webp" alt="Logo que no es mio">
+            </div>
+            <div class="iconContainer">
+                <i class="icono fas fa-list"></i>
+            </div>
+            <div class="aContainer">
+                <a class="nav-item" href="#">Inicio</a>
+                <a class="nav-item portafolio" href="#portafolio">Portafolio</a>
+                <a class="nav-item" href="#skillSet">Skill Set</a>
+                <a class="nav-item" href="#contacto">Contacto</a> 
+            </div>
+        </nav>
+    </section>
+    <section class="seccion2">
+        <h2 id="portafolio">Portafolio</h2>
+        <div class="seccion2-portafolios"></div>
+    </section>
+    <section class="seccion3-1">
+
+        <div class="seccion3-container">
+            <h2 id="skillSet">Skill set</h2>
+
+            <div class="skillContainer">
+                <div class="skillItem">
+                    <h3 class="skillH3">HTML</h3>
+                    <img class="skillImg" src="media/htmlLogo.jpg" alt="Logo de html">
+                    <span class="barra"><span class="HTML"></span></span>
+                </div>
+                <div class="skillItem">
+                    <h3 class="skillH3">CSS</h3>
+                    <img class="skillImg" src="media/cssLogo.jpg" alt="Logo de css">
+                    <span class="barra"><span class="CSS"></span></span>
+                </div>
+                <div class="skillItem">
+                    <h3 class="skillH3">Javascript</h3>
+                    <img class="skillImg" src="media/JSlogo.png" alt="Logo de Javascript">
+                    <span class="barra"><span class="JAVASCRIPT"></span></span>
+                </div>
+            </div>
+            <div class="hobbies">
+                <h2>Hobbies</h2>
+                <div class="hobbies-container">
+                    <div class="hobbieItem">
+                        <h3>Cubos Rubik</h3>
+                        <img class="hobbie-img" src="media/cuboImg.jpg" alt="Cubos rubik">
+                    </div>
+                    <div class="hobbieItem">
+                        <h3>Videojuegos</h3>
+                        <img class="hobbie-img"  src="media/zeldaImg.jpg" alt="The Legend of Zelda">
+                    </div>
+                    <div class="hobbieItem">
+                        <h3>Programar</h3>
+                        <img class="hobbie-img"  src="media/javascriptImg.jpg" alt="Script">
+                    </div>
+                </div> 
+            </div>
+        </div>    
+    </section>
+    <section class="seccion4">
+        <h2 id="contacto">Contacto</h2>
+        <div class="formDivContainer">
+            <form class="formContainer" action="">
+                <input class="formItem" type="text" placeholder="Nombre" required>
+                <input class="formItem" type="email" placeholder="Email" required>
+                <textarea class="formItem mensaje" placeholder="Mensaje"></textarea>
+                <input class="formItem submit" type="submit">
+            </form>
+        </div>       
+    </section>
+    <footer class="seccion5">
+        <p class="footerP">Desarrollo y diseño por Cristian Garcia. 2021</p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
